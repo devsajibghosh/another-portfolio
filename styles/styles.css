@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  width: 1140px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+section{
+  margin-top: 90px;
+}
+
+/* Navigation Menu */
+
+.main_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site_title{
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.title_text{
+  color: #FD6E0A;
+}
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li:last-child{
+  margin-right: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+.btn_primary{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  background: #FD6E0A;
+  cursor: pointer;
+}
+/* Banner Section */
+.header{
+  background-color: #FFF8F3;
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left center;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  justify-content: space-between;
+}
+.banner .hello{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner .name{
+  color: #181818;
+  font-size: 52px;
+  font-weight: 800;
+  margin-top: 5px;
+}
+.banner .title{
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px
+}
+.download_btn{
+  margin-right: 30px;
+}
+.banner_content{
+  max-width: 585px;
+}
+.contact_btn{
+  color: #FD6E0A;
+  background: transparent;
+  border: 1px solid #FD6E0A;
+}
+/* about section */
+.description_items{
+  max-width: 802px;
+  margin: 0 auto;
+  padding: 90px 110px;
+}
+.about_sec_title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.about_sec_description{
+  color: #757576;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.about_section .container{
+  background-color: #FFF8F3;
+  border-radius: 10px;
+}
+
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+}
+.about_info{
+  text-align: center;
+  margin-top: 30px;
+}
+.info_title{
+  color: #757575;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.info_describe{
+  color: #474747;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+/* What section */
+.what_sec_description{
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 635px;
+  margin: 30px auto;
+}
+.primary_section_title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.what_section .skill_container{
+  display: flex;
+  column-gap: 24px;
+}
+.what_section .skill{
+  padding: 20px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.what_section .skill_title{
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.what_section .skill_description{
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+}
+.what_section .skill_img{
+  display: block;
+}
+
+/* Summary of my Resume */
+
+.summary_colum_title{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.summary_container{
+  display: flex;
+  gap: 70px;
+}
+hr{
+  border: none;
+  height: 1px;
+  background: #D1D1D1;
+}
+.summary_colum{
+  margin-top: 80px;
+}
+.summary_item_title{
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.summary_item_company{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.summary_item_description{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.dowload_my_cv{
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* footer design */
+
+footer{
+  margin-top: 90px;
+  background: #FFF8F3;
+}
+.footer_main_colum{
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0;
+}
+.social_links a{
+  margin-right: 25px;
+}
+.footer_column_title{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer_column_title-description{
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  max-width: 395px;
+}
+.contact>input,
+textarea {
+  display: block;
+  margin-top: 24px;
+  color: #757575;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #FFF;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline-color: #FD6E0A;
+}
+.contact textarea {
+  resize: none;
+  margin-bottom: 24px;
+}
+.footer_colum .btn {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Responsive Design Part */
+@media only screen and (max-width:576px) {
+  nav li{
+    margin-right: 0;
+}
+.btn_primary{
+  margin-bottom: 30px;
+}
+.header {
+  background-image: none;
+}
+.banner {
+  flex-direction: column;
+  padding: 0 20px;
+}
+.profile-pic {
+  width: 100%;
+}
+ul,
+.main_nav,
+.about_info_container,
+.summary_container,
+.footer_main_colum,
+.skill_container{
+  flex-direction: column;
+  gap: 25px;
+}
+.contact>input,
+textarea {
+    width: 92%;
+}
+.footer_main_colum{
+  text-align: center;
+}
+.footer_colum{
+  width: 100%;
+}
+.description_items{
+  padding: 90px 15px;
+}
+.download_btn{
+  margin-bottom: 20px;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 992px){
+ul,
+.summary_container,
+.footer_main_colum,
+.skill_container{
+  flex-direction: column;
+  gap: 25px;
+}
+nav li{
+  margin-right: 0;
+}
+.btn_primary{
+  margin-bottom: 30px;
+}
+.contact>input,
+textarea {
+    width: 92%;
+}
+.footer_main_colum{
+  text-align: center;
+}
+.footer_colum{
+  width: 100%;
+}
+.footer_column_title-description{
+  margin: 0 auto;
+}
+.description_items{
+  padding: 90px 15px;
+}
+.about_info_container{
+  flex-direction: column;
+}
+.header {
+  background-image: none;
+}
+.banner {
+  flex-direction: column;
+  padding: 0 20px;
+}
+.profile-pic {
+  width: 100%;
+}
+.download_btn{
+  margin-bottom: 20px;
+}
+}
